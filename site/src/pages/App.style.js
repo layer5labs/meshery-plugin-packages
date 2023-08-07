@@ -287,3 +287,4 @@ export const Main = styled.main`
 
 
 `
+export default Header;

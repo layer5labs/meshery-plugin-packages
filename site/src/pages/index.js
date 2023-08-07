@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './fonts.css';
-import reportWebVitals from './reportWebVitals';
+import '../assets/fonts/fonts.css';
+import reportWebVitals from 'reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,3 +16,4 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
  
+export default IndexPage;

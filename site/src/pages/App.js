@@ -1,15 +1,15 @@
 // import SignupForm from "./components/SignupForm";
 import { Main } from './App.style.js';
 // import mesheryPlayground from "./assets/images/meshery-playground-meshmap.png";
-import Footer from "./components/Footer";
+import Footer from "../components/Footer/index.js";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, GlobalStyle, lightTheme } from './index.style.js';
-import { useDarkMode } from "./components/useDarkMode";
+import { useDarkMode } from "../components/useDarkMode.js";
 // import ReactPlayer from 'react-player/youtube'
-import Navigation from "./components/Navigation";
-import Faq from "./components/Faq";
+import Navigation from "../components/Navigation/index.js";
+import Faq from "../components/Faq/index.js";
 import { useState } from "react";
-import BadgeGrid from "./components/BadgeGrid";
+import BadgeGrid from "../components/BadgeGrid/index.js";
 
 const App = () => {
 

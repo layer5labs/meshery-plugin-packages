@@ -113,3 +113,5 @@ export const darkTheme = {
   background: '#999',
   btn: '#1E2117',
 }
+
+export default GlobalStyle;
